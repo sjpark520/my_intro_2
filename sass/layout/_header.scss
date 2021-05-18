@@ -1,9 +1,10 @@
 header {
   position: relative;
   background-image: linear-gradient(
-    rgba($sub-color, 0.7),
-    rgba($sub-color, 0.7)
-  );
+      rgba($sub-color, 0.7),
+      rgba($sub-color, 0.7)
+    ),
+    url("../../img/my_background.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
