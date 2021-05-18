@@ -1,0 +1,18 @@
+{
+  "name": "my_intro_2",
+  "version": "1.0.0",
+  "description": "this is my portfolio (main introduction about me) ",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass sass/main.scss css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sjpark520/projects/tree/main/my_intro_2"
+  },
+  "author": "Sangjun Park",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^6.0.0"
+  }
+}

@@ -1,0 +1,18 @@
+.icon-block {
+  float: right;
+  margin: 3rem 5rem;
+  & ion-icon {
+    color: $main-color;
+    margin-right: 1rem;
+    &:hover {
+      box-shadow: 0 0 0;
+      background-color: transparent;
+      background-clip: text;
+      -webkit-background-clip: none;
+    }
+
+    &:active {
+      color: cyan;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+.header-main-block {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  transform: translate(-50%, -50%);
+  text-align: left;
+  & h1 {
+    margin: 4rem auto;
+  }
+  border-radius: 3rem;
+  padding: 3rem;
+  padding-top: 0rem;
+  border: 1px solid $main-color-dark;
+  background-image: linear-gradient(
+    to right bottom,
+    $main-color,
+    rgb(22, 252, 60)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  transition: all 0.2s;
+
+  &:hover {
+    cursor: pointer;
+    background-clip: none;
+    -webkit-background-clip: none;
+    color: turquoise;
+    box-shadow: 20px 20px 20px rgba($main-color-dark, 0.4);
+  }
+
+  &:active {
+    color: whitesmoke;
+  }
+}
+
+.header-contact-block {
+  position: absolute;
+  bottom: 10%;
+  right: 5%;
+  display: block;
+  padding: 1rem 1.7rem;
+  border-radius: 200px;
+  border: 1px solid $main-color;
+  -webkit-border-radius: 200px;
+  -moz-border-radius: 200px;
+  -ms-border-radius: 200px;
+  -o-border-radius: 200px;
+}
