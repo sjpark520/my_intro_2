@@ -59,6 +59,8 @@ body {
       -webkit-background-clip: none; }
     .icon-block ion-icon:active {
       color: cyan; }
+  .icon-block a {
+    color: transparent; }
 
 .button {
   transition: all 0.2s;
@@ -87,7 +89,7 @@ body {
 
 header {
   position: relative;
-  background-image: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7));
+  background-image: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)), url("/img/my_background.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
@@ -131,3 +133,23 @@ header {
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px; }
+
+.contact-body {
+  background-color: whitesmoke; }
+
+.contact-section {
+  padding: 0;
+  margin: 0;
+  text-align: center; }
+
+.contact-header {
+  display: inline-block;
+  font-size: 200%;
+  color: #1dd3ae;
+  margin-top: 7rem;
+  font-weight: 400;
+  border-bottom: 2px solid #19b697; }
+
+.contact-form > * {
+  margin: 0 auto;
+  display: block; }
