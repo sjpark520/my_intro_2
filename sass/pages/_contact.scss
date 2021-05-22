@@ -1,1 +1,36 @@
+.contact-body {
+  margin: 0;
+  padding: 0;
+  background-color: white;
+}
 
+.contact-form {
+  width: 50%;
+  margin: 0 auto;
+}
+
+input,
+.message {
+  color: $main-color-dark;
+  font-weight: 400;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid $main-color;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+}
+
+.message {
+  resize: none;
+  height: 15rem;
+}
+
+.contact-header {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: $main-color;
+  font-weight: 200;
+}

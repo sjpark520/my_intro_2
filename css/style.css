@@ -36,6 +36,11 @@ body {
   .header-contact-block h2 {
     font-weight: 400; }
 
+.contact-font {
+  color: #1dd3ae;
+  font-weight: 200;
+  float: left; }
+
 .logo-block {
   position: absolute;
   float: right;
@@ -87,6 +92,58 @@ body {
     -ms-transform: translateY(-3px);
     -o-transform: translateY(-3px); }
 
+.button__contact-btn {
+  width: 30%;
+  float: right;
+  background-color: white;
+  color: #1dd3ae;
+  padding: 1rem; }
+  .button__contact-btn:hover {
+    transform: translateY(-3px);
+    background-color: #1dd3ae;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -webkit-transform: translateY(-3px);
+    -moz-transform: translateY(-3px);
+    -ms-transform: translateY(-3px);
+    -o-transform: translateY(-3px); }
+  .button__contact-btn:active {
+    background-color: #19b697;
+    transform: translateY(-1px);
+    -webkit-transform: translateY(-1px);
+    -moz-transform: translateY(-1px);
+    -ms-transform: translateY(-1px);
+    -o-transform: translateY(-1px); }
+  .button__contact-btn--close {
+    padding-bottom: -5rem;
+    margin: 0;
+    padding-bottom: -2rem;
+    position: absolute;
+    top: 5rem;
+    right: 10rem;
+    color: #1dd3ae;
+    font-size: 4rem;
+    float: right; }
+    .button__contact-btn--close::after {
+      margin: 0;
+      padding: 0; }
+    .button__contact-btn--close:hover::before {
+      transition: all 0.3s;
+      color: white;
+      background-color: #1dd3ae;
+      -webkit-transition: all 0.3s;
+      -moz-transition: all 0.3s;
+      -ms-transition: all 0.3s;
+      -o-transition: all 0.3s; }
+
+.u-center {
+  text-align: center; }
+
 header {
   position: relative;
   background-image: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)), url("/img/my_background.jpg");
@@ -99,7 +156,7 @@ header {
   max-width: 114rem;
   margin: 0 auto; }
   .row:not(:last-child) {
-    margin-bottom: 8rem; }
+    margin-bottom: 1rem; }
   .row::after {
     content: "";
     clear: both;
@@ -127,9 +184,6 @@ header {
 
 .col-3-of-4 {
   width: calc( 3 * ((100% - 3 * 6rem) / 4) + 2 * 6rem); }
-
-.center {
-  text-align: center; }
 
 .header-main-block {
   position: absolute;
@@ -169,3 +223,35 @@ header {
   -moz-border-radius: 200px;
   -ms-border-radius: 200px;
   -o-border-radius: 200px; }
+
+.contact-body {
+  margin: 0;
+  padding: 0;
+  background-color: white; }
+
+.contact-form {
+  width: 50%;
+  margin: 0 auto; }
+
+input,
+.message {
+  color: #19b697;
+  font-weight: 400;
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #1dd3ae;
+  border-radius: 3px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px; }
+
+.message {
+  resize: none;
+  height: 15rem; }
+
+.contact-header {
+  margin-top: 5rem;
+  margin-bottom: 5rem;
+  color: #1dd3ae;
+  font-weight: 200; }
