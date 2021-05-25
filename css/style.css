@@ -146,7 +146,7 @@ body {
 
 header {
   position: relative;
-  background-image: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)), url("/img/my_background.jpg");
+  background-image: linear-gradient(rgba(33, 33, 33, 0.7), rgba(33, 33, 33, 0.7)), url("../img/my_background.jpg");
   background-size: cover;
   margin: 0;
   padding: 0;
